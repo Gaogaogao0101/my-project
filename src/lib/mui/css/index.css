@@ -1,0 +1,16 @@
+.header1{
+    height:40px;
+    width: 100%;
+}
+.banner1{
+    height:220px;
+    width: 100%; 
+    /* margin-left: 0; */
+}
+.ban{
+    width: 100%;
+}
+.ban>img{
+    width: 100%;
+    height: 100%;
+}

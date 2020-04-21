@@ -1,0 +1,70 @@
+/* 我的合伙人 */
+#cober .top{
+    padding-left: .2rem;
+    height: 1rem; 
+    line-height: 1rem;
+    background: #ffffff;
+}
+#cober .top div{
+    float: left;
+}
+#cober .top .top-left{
+    width: .2rem;
+}
+#cober .top .top-left img{
+    width: 100%;
+    width: .2rem;
+    height: .35rem;
+   margin-top: .3rem;
+    position: fixed;
+   left: .24rem;
+}
+#cober .top .top-right{
+    width: 96%; 
+    text-align: center;
+    font-size: .42rem;
+    font-weight: bold;
+    color: #313131;
+    font-family:"Source Han Sans CN";
+}
+#cober .being{
+    margin-top: 1rem;
+}
+#cober .being ul li{
+    height: 1.3rem;
+    border-bottom: 1px solid #E5E5E5;
+    padding-top: .6rem;
+    padding-right: .2rem;
+    padding-left: .2rem;
+    font-size: .32rem;
+    color: #313131;
+    background: #ffffff;
+    font-family: "SourceHanSerifSC-Light";
+}
+small{
+    width: 95%;
+    display: block;
+    font-size: 100%;
+}
+small span{
+    width: 50%;
+    float: left;
+}
+small .count{
+    text-align: right;
+}
+#cober .being ul li span{
+    /* margin-left:5.4rem; */
+    font-size: .32rem;
+    color: #313131;
+    font-family:"Source Han Sans CN";
+}
+#cober .being ul li samp{
+    width: .15rem;
+    height: .27rem; 
+    float: right;
+    
+    }
+#cober .being ul li samp img{
+     width:100%;  
+}

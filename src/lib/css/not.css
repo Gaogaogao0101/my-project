@@ -1,0 +1,289 @@
+/* 等待付款 */
+
+#order {
+    margin-bottom: 1.8rem;  
+}
+#order .top{
+    width: 100%;
+    height: 1rem;
+    padding-left: .2rem; 
+    line-height: 1rem; 
+    background: #C5161D;
+}
+#order .top div{
+    float: left;
+}
+#order .top .top-left{
+    width: .2rem;
+}
+#order .top .top-left img{
+    width: 100%;
+    width: .2rem;
+    height: .35rem;
+   margin-top: .3rem;
+   position: fixed;
+   left: .24rem;
+}
+#order .top .top-right{
+    width: 96%; 
+    text-align: center;
+    font-size: .42rem;
+    font-weight: bold;
+    color: #fff;
+    font-family:"Source Han Sans CN";
+} 
+#order .top .top-right span{
+    font-size: .24rem;
+    font-weight: normal;
+    font-family: 'SourceHanSerifSC-Light';
+}
+#order .land-top{
+    height: 1.15rem; 
+    text-align: center;
+    line-height: 1.15rem;
+    font-size: .42rem;
+    color: #ffffff;
+    /* font-weight:bold; */
+    font-family: "PingFangSC-Semibold, sans-serif;"; 
+    background: #C5161D;
+    position: relative;
+}
+#order .land-top .top-img{
+    float: left;
+    padding-left:.25rem;  
+    position: relative;
+}
+#order .land-top .top-img .left {  
+    width:.18rem;
+    height:.18rem;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform: rotate(-135deg);
+    position: absolute;
+    top: .39rem;
+}
+#order .land-top .top-img .fd{ 
+    position: absolute;
+    top: .1rem;
+  }
+#order .land-top .top-img .fd span{
+    width: 1.5rem;
+    font-size: .28rem;
+    color: #939393;
+    font-family: "SourceHanSerifSC-Light";
+    font-weight: normal;
+    margin-top: -.2rem;
+    position: absolute;
+    top:.2rem;
+    left: .1rem;
+}
+#order .land-top .top-img img{
+    width: .19rem;
+    height: .35rem;
+    /* line-height: 1.15rem; */
+    margin-right: .1rem;
+}
+#order .back-color{
+    height: 1.35rem;
+    background: #C5161D;
+    position: relative;
+}
+#order .address{
+    height: 2rem;
+    background: #fafafa;
+    padding-left: .25rem;
+    padding-right: .25rem;  
+}
+#order .address .landing{
+    height: 2.5rem;
+    width:7rem; 
+    background: #FFFFFF;
+    position: absolute;
+    top:1.15rem; 
+    border-top-left-radius: .1rem;
+    border-top-right-radius: .1rem;
+    border-bottom-left-radius: .1rem;
+    border-bottom-right-radius: .1rem;
+}
+#order .address .landing .lnd{
+    float: left;
+}
+#order .address .landing .lnd .tel{
+    font-size: .32rem;
+    color: #313131;
+    padding-left: .2rem;
+    margin-top: .26rem;
+}
+#order .address .landing .lnd .tel span{
+    color: #939393;
+    font-size: .28rem;  
+}
+#order .address .landing .mrs{
+    width: 15%; 
+    height: 100%; 
+}
+#order .address .landing .mrs .mr{
+    width: .7rem;
+    height: .35rem;
+    background: #C5161D;
+    display: block;  
+    font-size: .28rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: .35rem;
+    margin-top: .53rem;
+    margin-left: .28rem;  
+    font-family:"PingFangSC-Regular, sans-serif";
+} 
+#order .address .landing .adr{
+    width:85%; 
+}
+#order .address .landing .adres{ 
+    /* height: 1rem;  */
+    overflow: hidden;
+    padding-right: .24rem;
+    font-size: .38rem;
+    color: #313131;
+    margin-top: .48rem;
+    display: block; 
+    padding-left: .18rem;
+    font-weight: bold; 
+    font-family:"SourceHanSerifSC-Light";
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+#order .address .landing .land-right{
+    width: 17%; 
+    color: #313131;
+    font-size: .24rem;
+    padding-top: 1.15rem;
+}
+#order .address .landing .land-right span{
+    margin-top: 1.15rem;
+}
+#order .address .landing .land-right img{
+    width: .16rem;
+    height: .3rem;
+     margin-top: .05rem; 
+    float: right;
+    margin-right: .35rem;
+    margin-left: .1rem;
+}
+#order .order-d{
+    font-size: .38rem;
+    font-weight: bold; 
+    background: #fff;
+    padding-left: .25rem;
+    padding-bottom: .5rem;
+}
+#order .order-d span{
+    font-size: .2rem;
+    font-weight: normal;
+
+}
+#order .order-d span small{
+    font-size: .42rem;
+}
+#order .dels{ 
+    background: #ffffff;
+}
+.order-list{
+    width: 100%;
+    height: 2.5rem;
+    margin-bottom: .1rem;
+} 
+#order .dels .tu{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: .24rem;
+    float:left;
+    background: #F7F7F7;
+    border-top-left-radius: .1rem;
+    border-top-right-radius: .1rem;
+    border-bottom-left-radius: .1rem;
+    border-bottom-right-radius: .1rem;
+}
+#order .dels .tu .tu-img{
+    width: 2rem;
+    height: 1.88rem; 
+    margin:auto;
+    padding-top: .6rem;
+    background: #F7F7F7;
+}
+#order .dels .tu .tu-img img{
+    width: 100%;
+    height: 100%;
+
+}
+#order .dels .y-name{
+    height: 2.25rem; 
+    font-size: .32rem;
+    font-weight: bold; 
+    width: 60%; 
+    margin: auto;
+    margin-top: .45rem; 
+    float:right;
+    color: #313131;
+    font-family: "SourceHanSerifSC-Bold";
+}
+#order .dels .lists .lis{
+    /* width: 75%; */
+    margin: auto;   
+    /* height: 1.48rem; */
+    border-left-width:10px;
+    /* border-bottom: 1px solid #E8E8E8; */
+}
+#order .dels .lists .lis div{
+    float: left;
+}
+#order .dels .bottom{
+    margin-top: .25rem;
+    height:1.6rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    border-top: 1px solid #E8E8E8;
+}
+#order .dels .bottom .bottom-con{
+    height: .8rem;
+    padding-left: .25rem; 
+    margin-top: .4rem;
+    width: 100%;   
+    padding-right: .25rem; 
+}
+#order .dels .bottom .bottom-con .bottom-con-left{
+    width: 50%;
+    height: .8rem;  
+    float: left;
+    color: #515151;
+    line-height: .8rem;
+    font-size: .32rem;
+    color: #C5161D;
+    font-family: "SourceHanSerifSC-Medium";
+    /* font-weight: bold; */
+}
+#order .dels .bottom .bottom-con .bottom-con-left span{
+    font-size: .42rem;
+    font-family: "SourceHanSerifSC-Medium";
+}
+#order .dels .bottom .bottom-con .bottom-con-right{
+    width: 50%;
+    height: .8rem;
+    margin-left: 50%;
+    text-align: center;
+    line-height: .8rem;
+    color: #ffffff;
+    background: #C5161D;
+    font-size: .32rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem; 
+   font-family:"PingFangSC-Light, sans-serif";
+}

@@ -1,0 +1,304 @@
+/* 详情页样式 */
+.active{
+    background: #C5161C;
+    color: #fff !important;
+    border: none !important;
+}
+.mint-header-button.is-left{
+    position: fixed;
+    left: .24rem;
+}
+.mintui{
+   position: fixed !important;
+   left: .24rem !important;  
+}
+#cartdel .top{
+    /* height: 3.55rem; */
+    background: #F7F7F7;
+    /* padding-left: .26rem; */
+    /* padding-top: .3rem; */
+    /* padding-top: .2rem; */
+    position: relative;
+}
+#cartdel .top .revert{
+    width: 100%;
+    height: .5rem;
+    position: relative;
+}
+#cartdel .top .revert img{
+    width: .17rem;
+    height: .31rem;
+    position: absolute;
+    left: 0;
+}
+#cartdel .cdel{ 
+    padding-left: .2rem; 
+    margin-top: .3rem;
+    position: relative;
+} 
+.banner-img{
+    height:2.3rem;
+    width:3.25rem; 
+    /* margin-top: .75rem; */
+    position: absolute;
+    top: .9rem;
+    left: 30%; 
+}
+.banner-img img{
+    width:100%;
+    height:100%; 
+}
+#cartdel{
+    background: #ffffff;
+    margin-bottom: 1.5rem;
+}  
+#cartdel .cdel .prc{
+    color: #C5161C; 
+    font-family: "SourceHanSerifSC-Medium";
+}  
+#cartdel .cdel .prc span{
+    font-size: .42rem;
+}
+#cartdel .cdel .til{
+    width: 100%;
+    height: .35rem;
+    line-height: .35rem;
+    font-size: .32rem;
+    font-weight: bold;
+    font-family:"Source Han Sans CN";
+    margin-top: .2rem; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#cartdel .cdel .kd{
+    font-size: .28rem;
+    color: #939393;
+    margin-top: .2rem;
+    font-family:"SourceHanSerifSC-Light";
+}
+#cartdel .cdel .ge{
+    width: 100%;
+    margin-top: .4rem;
+    font-size: .28rem;
+    color: #939393;
+    padding-right: .2rem;
+}
+#cartdel .cdel .ge .h{
+    /* color:#E5E5E5;  */
+    border-top:1px solid #E5E5E5; 
+    margin-top: .15rem;
+}
+#cartdel .cdel .ge .cp{
+    width: 100%; 
+    margin: 0; 
+    /* display: flex; */
+    padding-top: .35rem;
+}
+#cartdel .cdel .ge .cp div{
+    height: .73rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    /* width: 2.15rem;  */
+    margin-right: .35rem; 
+    /* float: left; */
+    display: inline-block;
+    margin-bottom: .1rem;
+    text-align: center;
+    line-height: .73rem;
+    font-size: .32rem;
+    color: #939393;
+    border: 1px solid #d5d5d5;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    font-family:"SourceHanSerifSC-Light";
+}
+#cartdel .cdel .ms{ 
+    margin-right: .24rem;
+    font-size: .28rem; 
+    color: #939393;
+    font-family:"SourceHanSerifSC-Light";
+}
+#cartdel .cdel .ms span{
+    color: #545454;
+    margin-left: .2rem;
+}
+#cartdel .hs{
+    width: 100%;
+    height: .2rem;
+    background: #FAFAFA; 
+}
+#cartdel .sdel{
+    margin-top: .33rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+#cartdel .sdel .sdel-til{
+    /* 字体样式待设置 */
+    font-size: .38rem;
+    font-family:"SourceHanSerifSC-Light";
+    font-weight: bold;
+    display: block;
+    width: 100%; 
+}   
+#cartdel .sdel .sdel-til .sdel-blo{
+    display: block;
+    float: left;
+    width: .2rem;  
+}
+#cartdel .sdel .sdel-til .sdel-blo-tl{
+    /* 字体样式待设置 */
+    font-size: .38rem;
+    font-family:"SourceHanSerifSC-Light";
+    font-weight: bold;
+    display: block;
+    width:1.6rem; 
+    float: left;
+}
+#cartdel .sdel .sdel-til small{
+    font-size: .38rem;
+    font-weight: normal;
+}
+#cartdel .sdel .sdel-til span{
+    font-size: .2rem;
+    font-weight: normal;
+
+}
+#cartdel .sdel .shopimg{
+    width: 100%;
+    padding-right: .26rem; 
+    position: relative;
+}
+#cartdel .sdel .shopimg .bag-img{
+    height: 4.8rem;
+    background-image: url("../../lib/img/ios/bcbcbc_06.png");
+    background-size: 3.81rem 3.81rem;
+    background-repeat:no-repeat;
+    background-position:1.5rem 1rem;
+}
+#cartdel .sdel .shopimg .shop-imgs{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 1.4rem;
+    position: absolute;
+    top:.8rem; 
+} 
+#cartdel .sdel .shopimg .shop-imgs span{
+    display: block;
+    word-break: break-all; 
+    width: 100%;
+} 
+
+#cartdel .sdel .shopimg .shop-imgs span p img{
+    width:97%;
+    margin-top: .3rem;
+    margin-bottom: 1.3rem;
+}
+/* 底部 */
+.shoping{
+    height: 1.3rem;
+    width:100%; 
+    background:#fff; 
+    position: fixed;
+    bottom: 0;
+}
+.shoping .hr{
+    width: 96%;
+    margin: auto;
+    border-top: 1px solid #EFEFEF;
+}
+.shoping .shop-con{
+    height: .9rem;
+    width: 96%; 
+    margin: auto;
+    margin-top: .18rem;
+}
+.shoping .shop-con .lr{
+    float: left;
+}
+.shoping .shop-con .shop-con-left{
+    width: 45%;
+    height: .9rem; 
+}
+.shoping .shop-con .shop-con-right{
+    width: 45%;
+    height: .9rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    background: #C5161C;
+    text-align: center;
+    line-height: .9rem;
+    font-size: .32rem;
+    color: #ffffff;
+    font-family:"SourceHanSerifSC-Light";
+}
+.shoping .shop-con .lr .ls{
+    float: left;
+} 
+.shoping .shop-con .lr  .fx{
+    width: 50%;
+    height: .9rem; 
+    padding-left: .2rem;
+    border-right: 1px solid #EEEEEE;
+}
+.shoping .shop-con .lr .fx img{
+    width: .43rem;
+    height: .4rem;
+    margin-left: .35rem;
+}
+.shoping .shop-con .lr .fx div{
+    margin-left: .35rem;
+    font-size: .24rem;
+    color: #939393;
+}
+.shoping .shop-con .lr .gwc{
+    width: 50%;
+    height: .9rem;
+}
+.shoping .shop-con .lr .gwc img{
+    width: .52rem;
+    height: .43rem;
+    margin-left: .65rem;
+}
+.shoping .shop-con .lr .gwc div{
+    margin-left: .4rem;
+    font-size: .24rem;
+    color: #939393;
+}
+/* 弹框 */
+.pop{
+    width:100%
+}
+.pop .con{
+    width: 3rem;
+    margin: 0 auto;
+    padding-top: .2rem;
+}
+.pop .con .left{
+    float:left
+}
+.pop .con .right{
+    float:right
+}
+.pop .con .pic_left{
+    width: 0.66rem;
+    height:0.66rem;
+    margin-left: 0.33rem;
+}
+.pop .con .pic_right{
+       width: 0.66rem;
+       height:0.66rem;
+    margin-left: 0.15rem;
+}
+.pop .cancel{
+    margin-top: 1.5rem;
+    font-size: .34rem;
+    border-top: .2rem solid;
+    border-top: .01rem solid #cccc;
+    padding-top: .2rem;
+    text-align: center;
+    padding-bottom: .2rem;
+}

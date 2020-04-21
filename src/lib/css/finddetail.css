@@ -1,0 +1,98 @@
+/* 我的收藏 */
+#find{
+    background: #ffffff;
+    width: 100%; 
+    position: absolute;
+}
+.top{
+    height: 1rem;
+    line-height: .9rem;
+    text-align: center; 
+    padding-right: .24rem;
+}
+.top div{
+    float: left;
+}
+.top .til-left{
+    width:5%;
+}
+.top .til-left img{
+    width: .18rem;
+    height: .33rem;
+}
+.til-con{
+    width: 85%;
+}
+.top .til-right{
+    float: right;
+    width: 25%;
+}
+.top .til-right img{
+    width: .39rem;
+    height: .36rem; 
+}
+#find{
+    padding-left: .25rem;
+}
+#find .tle{
+    font-size: 0.42rem;
+    font-family:"Source Han Sans CN";
+    font-weight: bold;
+    color: #313131;
+    margin-top: 1rem;
+    }
+#find .tles{
+    margin-top: .6rem;
+    font-family:"SourceHanSerifSC-Light";
+    color: #313131;
+    font-size: .32rem;
+}
+#find .time{
+    margin-top:.3rem;
+    color: #939393;
+    font-size: .28rem;
+    font-family:"SourceHanSerifSC-Light";
+}
+#find .conten{
+    margin-top: .5rem;
+    font-size: .28rem;
+    color: #313131;
+    font-family:"SourceHanSerifSC-Light";
+    line-height: .55rem;
+    padding-left: .24rem;
+    padding-right: .24rem;
+}
+#find .conten img{
+    width: 97%;
+    margin-top: .3rem;
+    margin-bottom: .2rem;
+}
+.input-labels{
+  cursor :pointer; 
+  position: absolute; 
+  width :.39rem;
+  height:.39rem;
+  right: .5rem;
+  top: 0.2rem;
+  /* margin:.2rem auto; */
+  background: #939393; 
+  border-radius: 50%;}
+ .input-labels:hover
+  {background: #c5161d;}
+.input-labels:after{
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background: transparent;
+  top :6px;
+  left: 6px;
+  border: 2px solid #333;
+  border-top :none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg) ;
+  -moz-transform :rotate(-45deg) ;
+  -o-transform :rotate(-45deg) ;
+  -ms-transform :rotate(-45deg) ;
+  transform :rotate(-45deg) ;}
